@@ -33,7 +33,7 @@ const Home = ({ data }) => {
       </Head>
 
       <Layout>
-        <div className="container">
+        <div className="container-fluid">
             {/* <Exemple /> */}
             {data.map(region => (
                 <div style={styles} key={region.code} >
